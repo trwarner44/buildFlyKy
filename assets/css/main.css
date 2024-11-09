@@ -3885,3 +3885,19 @@ input, select, textarea {
 		scroll-behavior: smooth;
 	}
 	
+
+	/* Blog post list styling */
+.post ul {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.post ul li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/* Adjust spacing within content */
+.content > * {
+    margin-bottom: 1.5rem; /* Adds spacing between direct child elements */
+}
